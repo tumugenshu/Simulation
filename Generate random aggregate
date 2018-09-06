@@ -1,0 +1,8 @@
+function polygon(n)
+if n<3
+error('n must be not less than 3');
+end
+t = linspace(0,2*pi,n+1);
+x = sin(t);
+y = cos(t);
+plot(x,y)
